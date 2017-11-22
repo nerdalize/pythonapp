@@ -16,7 +16,7 @@ function run_buildv2 { #build v2 docker container
 }
 
 function run_buildpushv2 { #build and push v2 docker container
-	docker build -t nerdalize/pythonapp:v2 ./v2
+	run_buildv2
 	docker push nerdalize/pythonapp:v2
 }
 
@@ -25,7 +25,7 @@ function run_buildv3 { #build v3 docker container
 }
 
 function run_buildpushv3 { #build and push v3 docker container
-	docker build -t nerdalize/pythonapp:v3 ./v3
+	run_buildv3
 	docker push nerdalize/pythonapp:v3
 }
 
