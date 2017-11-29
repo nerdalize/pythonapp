@@ -13,4 +13,4 @@ then
 fi
 
 echo "\n>> Starting python script"
-python $1
+python "$@"
