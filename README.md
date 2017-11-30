@@ -1,6 +1,6 @@
 # Python Application
 
-This Python image is a very thin wrapper around the default Python image (https://hub.docker.com/_/python/). The wrapping is done to make it easy to run Python scripts on Nerdalize. For a step-by-step guide on how to do this, see https://www.nerdalize.com/applications/python.
+This Python image is a very thin wrapper around the default Python image (https://hub.docker.com/_/python/). The wrapping is done to make it work with the [Nerd CLI](https://www.nerdalize.com/docs/basics/installing-cli/). For a step-by-step guide on how to do this, see https://www.nerdalize.com/applications/python.
 
 ## How does it work?
 
